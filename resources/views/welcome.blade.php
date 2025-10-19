@@ -17,8 +17,8 @@
 
     <form action="/import" method="POST" enctype="multipart/form-data">
         @csrf
-        <input type="file" name="csv" accept=".csv">
-        <button type="submit">Import</button>
+        <input class="btn" type="file" name="csv" accept=".csv">
+        <button class="btn" type="submit">Import</button>
     </form>
 
 </body>
